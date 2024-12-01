@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Métadonnées -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Sonia - Développeuse Web</title>
+    <!-- Lien vers les polices Google Fonts (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Lien vers Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Base href si nécessaire -->
+    <base href="." />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="accueil" class="section">
+        <div class="container">
+            <h1>Sonia Oukaci</h1>
+            <div class="elegant-line"></div>
+            <p>Développeuse Web Passionnée</p>
+        </div>
+    </section>
+
+    <section id="a-propos" class="section">
+        <div class="container">
+            <h2 class="gradient-text">À Propos</h2>
+            <p class="about-text">
+                Je m'appelle Sonia Oukaci et je suis développeuse web.
+            </p>
+
+            <p class="about-text">
+                Je me spécialise dans la création de sites web personnalisés, l'optimisation SEO, et la modernisation de sites existants. Mon objectif est de proposer des solutions sur mesure, adaptées aux besoins spécifiques de mes clients.
+            </p>
+
+            <p class="about-text">
+                Passionnée par le monde du web, j'ai décidé de me réorienter après une expérience dans le domaine du marketing. Cette reconversion m'a conduite à suivre une formation diplômante chez OpenClassrooms, où j'ai développé mes compétences en tant que développeuse web.
+            </p>
+
+            <p class="about-text">
+                Tout au long de cette formation, j'ai acquis des compétences techniques variées, aussi bien en développement front-end qu'en back-end, à travers plusieurs projets inspirés de situations réelles en entreprise. Trois de ces projets, illustrant mon savoir-faire, sont présentés dans mon portfolio.
+            </p>
+
+            <p class="about-text">
+                En tant que développeuse web, je suis enthousiaste à l'idée de relever de nouveaux défis et de créer des expériences numériques innovantes.
+            </p>
+
+            <div class="formation">
+                <h3>Formation</h3>
+                <p>Développeuse Web - OpenClassrooms</p>
+            </div>
+            <div class="competences">
+                <h3>Compétences</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">HTML/CSS</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">Sass</div>
+                    <div class="skill-item">React</div>
+                    <div class="skill-item">React Router</div>
+                    <div class="skill-item">Responsive</div>
+                    <div class="skill-item">GitHub</div>
+                    <div class="skill-item">Figma</div>
+                    <div class="skill-item">VS Code</div>
+                    <div class="skill-item">Accessibilité</div>
+                    <div class="skill-item">SEO</div>
+                    <div class="skill-item">NodeJS</div>
+                    <div class="skill-item">ExpressJS</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">API</div>
+                    <div class="skill-item">Validator HTML W3C</div>
+                    <div class="skill-item">Validator CSS W3C</div>
+                    <div class="skill-item">Google Lighthouse</div>
+                    <div class="skill-item">GTmetrix</div>
+                    <div class="skill-item">Trello</div>
+                    <div class="skill-item">Wave Evaluation Tool</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="section">
+        <div class="container">
+            <h2 class="gradient-text">Mes Projets</h2>
+            <div class="projects-showcase">
+                <!-- Projet Kasa -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">01</span>
+                        <h3>Kasa, location immobilière</h3>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-text">
+                            <p>Kasa est un projet réalisé dans le cadre de ma formation sur OpenClassrooms, où j'ai travaillé sur la refonte d'un site pour une agence immobilière. Ce projet s'est appuyé sur une maquette Figma et un fichier JSON, qui m'ont permis d'intégrer les données nécessaires au site.</p>
+                            <div class="tech-stack">
+                                <div class="tech-items">
+                                    <span class="tech-item">React</span>
+                                    <span class="tech-item">SASS</span>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/codingsoni/projet-kasa-react.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    <span>Voir sur GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-image-placeholder">
+                            <img src="images/kasa.png" alt="Capture d'écran du projet Kasa" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet Mon Vieux Grimoire -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">02</span>
+                        <h3>Mon Vieux Grimoire</h3>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-text">
+                            <p>Première expérience dans le développement backend d'un site web. J'ai eu pour mission de concevoir l'API et le serveur nécessaires au bon fonctionnement du front-end du site 'Mon Vieux Grimoire', permettant aux utilisateurs de s'inscrire, d'ajouter des livres à leur collection et de leur attribuer des notes.</p>
+                            <div class="tech-stack">
+                                <div class="tech-items">
+                                    <span class="tech-item">NodeJS</span>
+                                    <span class="tech-item">ExpressJS</span>
+                                    <span class="tech-item">MongoDB</span>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/codingsoni/backend.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    <span>Voir sur GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-image-placeholder">
+                            <img src="images/monvieuxgrimoire.png" alt="Capture d'écran du projet Mon Vieux Grimoire" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet Nina Carducci -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">03</span>
+                        <h3>Nina Carducci</h3>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-text">
+                            <p>Nina Carducci est un projet de formation dans lequel j'ai été chargée d'optimiser les performances du site web, d'améliorer son référencement SEO, et de produire un rapport détaillé sur les optimisations réalisées.</p>
+                            <div class="tech-stack">
+                                <div class="tech-items">
+                                    <span class="tech-item">JavaScript</span>
+                                    <span class="tech-item">HTML</span>
+                                    <span class="tech-item">CSS</span>
+                                    <span class="tech-item">SEO</span>
+                                    <span class="tech-item">Lighthouse</span>
+                                    <span class="tech-item">Wave</span>
+                                    <span class="tech-item">Rich Snippets</span>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/codingsoni/Nina-Carducci-Dev-master-sonia.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    <span>Voir sur GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-image-placeholder">
+                            <img src="images/Ninacarducci.png" alt="Capture d'écran du projet Nina Carducci" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="gradient-text">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:sonia-oukaci@hotmail.com" class="contact-link">
+                            sonia-oukaci@hotmail.com
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/sonia-o-5546a5243/" target="_blank" class="contact-link">
+                            Voir mon profil LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lien vers le fichier JavaScript externe -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
